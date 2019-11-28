@@ -21,7 +21,7 @@ MobileNet, VGG-Net, LeNet and all of them are base networks. Base network provid
   – prototxt: Network file is .prototxt
   – weights: Network weights file is .caffemodel
   – thr: Confidence threshold.
-  
+
 > Runnning this file
   1. Download the pretrained model files namely 'MobileNetSSD_deploy.prototxt' and 'MobileNetSSD_deploy.caffemodel' files.
   2. Check if the video camera in your device works properly. Code switches it on automatically once the code starts.
