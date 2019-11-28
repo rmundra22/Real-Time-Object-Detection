@@ -39,7 +39,7 @@ In simple words it means you take a single look at an image to propose object-de
 
 > Some Crazy Object Detection Results on MS COCO dataset can be visualize using the image below :-
 
-![Crazy Object Detections](link-to-image)
+![Crazy Object Detections](https://miro.medium.com/max/1309/1*4BLx59c0GBy1v7hPL3nn2g.png)
 
 ### Note: I will be adding results and few sample videos for more clearity
 
