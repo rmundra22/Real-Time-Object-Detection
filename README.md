@@ -31,7 +31,16 @@ MobileNet, VGG-Net, LeNet and all of them are base networks. Base network provid
   
  >> python real_time_object_detection.py --prototxt MobileNetSSD_deploy.prototxt.txt --model MobileNetSSD_deploy.caffemodel
  
- # Note: I will be adding results and few sample videos for more clearity
+### Single Shot Detection (SSD)
 
+In simple words it means you take a single look at an image to propose object-detections even if we are require to detect multiple objects within the image. The difference between the SSD and Regional Proposal Network (RPN) based approaches such as R-CNN series is that they are a 2 stage algorithms. In other words it is that they need two shots, one for generating region proposals and another one for detecting the object of each proposal. Thus, SSD is much faster compared with two-shot RPN-based approaches. Because of this feature of the SSD based approach we can get real time detections.
+
+>> SSD300 achieves 74.3% mAP at 59 FPS while SSD500 achieves 76.9% mAP at 22 FPS, which outperforms Faster R-CNN (73.2% mAP at 7 FPS) and YOLOv1 (63.4% mAP at 45 FPS). This Single Shot Multibox Detector is Cited by 6083 when I am writing this.
+
+> Some Crazy Object Detection Results on MS COCO dataset can be visualize using the image below :-
+
+![Crazy Object Detections](link-to-image)
+
+### Note: I will be adding results and few sample videos for more clearity
 
 
