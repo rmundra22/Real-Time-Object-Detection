@@ -17,10 +17,10 @@ MobileNet, VGG-Net, LeNet and all of them are base networks. Base network provid
    
 > The above code establish the following arguments:
 
-  –video: Path file video.
-  –prototxt: Network file is .prototxt
-  –weights: Network weights file is .caffemodel
-  –thr: Confidence threshold.
+  – video: Path file video.
+  – prototxt: Network file is .prototxt
+  – weights: Network weights file is .caffemodel
+  – thr: Confidence threshold.
   
 > Runnning this file
   1. Download the pretrained model files namely 'MobileNetSSD_deploy.prototxt' and 'MobileNetSSD_deploy.caffemodel' files.
