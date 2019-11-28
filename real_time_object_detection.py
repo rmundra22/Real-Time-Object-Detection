@@ -30,6 +30,12 @@ def agr_parser():
 	args = vars(ap.parse_args())
 	return args
 
+def serializing_model(args):
+	"""load our serialized model from disk"""
+	print("[INFO] loading model...")
+	net = cv2.dnn.readNetFromCaffe(args["prototxt"], args["model"])
+	return net
+
 def initilizing_video_stream():
 	"""initialize the video stream, allow the cammera sensor to warmup,
 	   and initialize the FPS counter"""
@@ -49,12 +55,6 @@ def preprocess_video_frames(vs):
 	blob = cv2.dnn.blobFromImage(cv2.resize(frame, (300, 300)),
 		0.007843, (300, 300), 127.5)
 	return blob, frame
-
-def serializing_model(args):
-	"""load our serialized model from disk"""
-	print("[INFO] loading model...")
-	net = cv2.dnn.readNetFromCaffe(args["prototxt"], args["model"])
-	return net
 
 def get_detections_from_frames(blob, net):
 	"""pass the blob through the network and obtain the detections and
