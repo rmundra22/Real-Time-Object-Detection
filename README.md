@@ -1,9 +1,11 @@
 # Real-Time-Object-Detection
-Using pre-trained MobileNet SSD for Real Time Multi-Object Detection
+### Using pre-trained MobileNet SSD for Real Time Multi-Object Detection
+
 
 > There are two type of deep neural networks here. 
-  A. Base network 
-  B. detection network 
+    
+  1. Base network 
+  2. detection network 
 
 MobileNet, VGG-Net, LeNet and all of them are base networks. Base network provide high level features for classification or detection. For classification we add a fully connected layer at the end of this networks. But if we remove fully connected layer and replace it with detection networks, like SSD, Faster R-CNN, and so on. In fact, SSD use of last convolutional layer on base networks for detection task. MobileNet just like other base networks use of convolution to produce high level features.
 
@@ -17,10 +19,10 @@ MobileNet, VGG-Net, LeNet and all of them are base networks. Base network provid
    
 > The above code establish the following arguments:
 
-  – video: Path file video.
-  – prototxt: Network file is .prototxt
-  – weights: Network weights file is .caffemodel
-  – thr: Confidence threshold.
+  1. video: Path file video.
+  2. prototxt: Network file is .prototxt
+  3. weights: Network weights file is .caffemodel
+  4. thr: Confidence threshold.
 
 > Runnning this file
   1. Download the pretrained model files namely 'MobileNetSSD_deploy.prototxt' and 'MobileNetSSD_deploy.caffemodel' files.
