@@ -24,9 +24,7 @@ MobileNet, VGG-Net, LeNet and all of them are base networks. Base network provid
 > Runnning this file
   1. Download the pretrained model files namely 'MobileNetSSD_deploy.prototxt' and 'MobileNetSSD_deploy.caffemodel' files.
   2. Check if the video camera in your device works properly. Code switches it on automatically once the code starts.
-  3. Use the below commond to execute the python file -
-  
->> python real_time_object_detection.py --prototxt MobileNetSSD_deploy.prototxt.txt --model MobileNetSSD_deploy.caffemodel
+  3. Use the below commond to execute the python file:- python real_time_object_detection.py --prototxt MobileNetSSD_deploy.prototxt.txt --model MobileNetSSD_deploy.caffemodel
 
 > My Experiments
 
