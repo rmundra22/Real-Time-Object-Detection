@@ -27,6 +27,10 @@ MobileNet, VGG-Net, LeNet and all of them are base networks. Base network provid
   3. Use the below commond to execute the python file -
   
 >> python real_time_object_detection.py --prototxt MobileNetSSD_deploy.prototxt.txt --model MobileNetSSD_deploy.caffemodel
+
+> My Experiments
+
+![Sample - Experiment_1](sample_1.gif) ![Sample - Experiment_2](sample_2.gif)
  
 ### Single Shot Detection (SSD)
 
