@@ -31,7 +31,7 @@ MobileNet, VGG-Net, LeNet and all of them are base networks. Base network provid
 > My Experiments
 
 ![Sample - Experiment_1](test_sample_videos/sample_1.gif) 
-![Sample - Experiment_2](sample_2.gif)
+![Sample - Experiment_2](test_sample_videos/sample_2.gif)
  
 ### Single Shot Detection (SSD)
 
