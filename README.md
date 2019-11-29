@@ -30,8 +30,12 @@ MobileNet, VGG-Net, LeNet and all of them are base networks. Base network provid
 
 > My Experiments
 
-![Sample - Experiment_1](test_sample_videos/sample_1.gif) 
+![Sample - Experiment_1](test_sample_videos/sample_1.gif)
+
+In the above gif we can observe that we are able to detect multiple objects in real-time using laptop's video cam. But it may happen sometimes that the model fail to detect an object class or it may also happen that occuluded objects are neither detected/correctly-classified. It's a pretty basic model to give a good feel of object detection without exclusively training a model with some personilized dataset. Retraining the model with some personalized data may help to give better results.
+
 ![Sample - Experiment_2](test_sample_videos/sample_2.gif)
+
  
 ### Single Shot Detection (SSD)
 
@@ -40,6 +44,7 @@ In simple words it means you take a single look at an image to propose object-de
 > SSD300 achieves 74.3% mAP at 59 FPS while SSD500 achieves 76.9% mAP at 22 FPS, which outperforms Faster R-CNN (73.2% mAP at 7 FPS) and YOLOv1 (63.4% mAP at 45 FPS). This Single Shot Multibox Detector is Cited by 6083 when I am writing this. Some Crazy Object Detection Results on MS COCO dataset can be visualize using the image below :-
 
 ![Crazy Object Detections](https://miro.medium.com/max/1309/1*4BLx59c0GBy1v7hPL3nn2g.png)
+
 
 ### Note: I will be adding results and few sample videos for more clearity
 
