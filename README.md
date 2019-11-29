@@ -1,5 +1,5 @@
 # Real-Time-Object-Detection
-### Using pre-trained MobileNet SSD for Real Time Multi-Object Detection
+### Using pre-trained MobileNet SSD for Real Time Multi-Class-Object Detection
 
 
 > There are two type of deep neural networks here. 
@@ -44,8 +44,5 @@ In simple words it means you take a single look at an image to propose object-de
 > SSD300 achieves 74.3% mAP at 59 FPS while SSD500 achieves 76.9% mAP at 22 FPS, which outperforms Faster R-CNN (73.2% mAP at 7 FPS) and YOLOv1 (63.4% mAP at 45 FPS). This Single Shot Multibox Detector is Cited by 6083 when I am writing this. Some Crazy Object Detection Results on MS COCO dataset can be visualize using the image below :-
 
 ![Crazy Object Detections](https://miro.medium.com/max/1309/1*4BLx59c0GBy1v7hPL3nn2g.png)
-
-
-### Note: I will be adding results and few sample videos for more clearity
 
 
