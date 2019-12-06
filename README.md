@@ -1,7 +1,6 @@
 # Real-Time-Object-Detection
 ### Using pre-trained MobileNet SSD for Real Time Multi-Class-Object Detection
 
-
 > There are two type of deep neural networks here. 
   1. Base network 
   2. detection network 
@@ -14,7 +13,8 @@ MobileNet, VGG-Net, LeNet and all of them are base networks. Base network provid
    3. SqueezeNet
    4. Faster R-CNN
    5. ResNet
-   
+
+### Usage of the file
 > The above code establish the following arguments:
   1. video: Path file video.
   2. prototxt: Network file is .prototxt
@@ -26,7 +26,7 @@ MobileNet, VGG-Net, LeNet and all of them are base networks. Base network provid
   2. Check if the video camera in your device works properly. Code switches it on automatically once the code starts.
   3. Use the below commond to execute the python file:- python real_time_object_detection.py --prototxt MobileNetSSD_deploy.prototxt.txt --model MobileNetSSD_deploy.caffemodel
 
-> My Experiments
+### My Experiments
 
 ![Sample - Experiment_1](test_sample_videos/sample_1.gif)
 
