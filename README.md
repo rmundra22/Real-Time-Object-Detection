@@ -48,4 +48,7 @@ In simple words it means you take a single look at an image to propose object-de
 
 ![Crazy Object Detections](https://miro.medium.com/max/1309/1*4BLx59c0GBy1v7hPL3nn2g.png)
 
+#### Reference
+https://ebenezertechs.com/mobilenet-ssd-using-opencv-3-4-1-deep-learning-module-python/
+
 
