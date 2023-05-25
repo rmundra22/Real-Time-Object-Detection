@@ -17,7 +17,7 @@ MobileNet, VGG-Net, LeNet and all of them are base networks. Base network provid
 ### Installation
     git clone https://github.com/rmundra22/Real-Time-Object-Detection.git
     cd Real-Time-Object-Detection
-    pip install requiremnets.txt
+    pip install -r requiremnets.txt
 
 ### Usage of the file
 > The above code establish the following arguments:
