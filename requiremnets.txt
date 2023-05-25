@@ -1,8 +1,5 @@
 certifi==2019.11.28
 imutils==0.5.3
-numpy==1.17.4
-opencv-python==4.1.2.30
-pip==19.3.1
-setuptools==42.0.2.post20191201
-wheel==0.33.6
+numpy==1.24.3
+opencv-python==4.7.0.72
 wincertstore==0.2

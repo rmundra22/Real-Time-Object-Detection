@@ -17,7 +17,7 @@ MobileNet, VGG-Net, LeNet and all of them are base networks. Base network provid
 ### Installation
     git clone https://github.com/rmundra22/Real-Time-Object-Detection.git
     cd Real-Time-Object-Detection
-    pip install -r requiremnets.txt
+    pip install requiremnets.txt
 
 ### Usage of the file
 > The above code establish the following arguments:
@@ -47,3 +47,8 @@ In simple words it means you take a single look at an image to propose object-de
 > SSD300 achieves 74.3% mAP at 59 FPS while SSD500 achieves 76.9% mAP at 22 FPS, which outperforms Faster R-CNN (73.2% mAP at 7 FPS) and YOLOv1 (63.4% mAP at 45 FPS). This Single Shot Multibox Detector is Cited by 6083 when I am writing this. Some Crazy Object Detection Results on MS COCO dataset can be visualize using the image below :-
 
 ![Crazy Object Detections](https://miro.medium.com/max/1309/1*4BLx59c0GBy1v7hPL3nn2g.png)
+
+#### Reference
+https://ebenezertechs.com/mobilenet-ssd-using-opencv-3-4-1-deep-learning-module-python/
+
+
